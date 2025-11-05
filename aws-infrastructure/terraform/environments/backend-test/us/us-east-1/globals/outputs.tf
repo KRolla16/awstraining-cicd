@@ -3,7 +3,7 @@ output "hub" {
 }
 
 output "account_id" {
-  value = 7605-0831-7047
+  value = "7605-0831-7047"
 }
 
 output "availability_zones" {
