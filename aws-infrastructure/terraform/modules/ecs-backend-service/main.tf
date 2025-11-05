@@ -15,7 +15,7 @@ resource "aws_iam_policy" "ecs_task_role_policy" {
   policy = templatefile("../../../policies/ecs-task-role-policy.tpl", {
     secrets_manager_resources = [ aws_secretsmanager_secret.secrets_manager.arn ]
     region = var.region
-    7605-0831-7047 = var.7605-0831-7047
+   account_id = var.account_id
   })
 }
 
