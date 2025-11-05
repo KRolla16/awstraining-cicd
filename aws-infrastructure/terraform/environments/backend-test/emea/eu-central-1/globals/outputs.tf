@@ -2,7 +2,7 @@ output "hub" {
   value = "EMEA"
 }
 
-output "7605-0831-7047" {
+output "account_id" {
   value = "7605-0831-7047"
 }
 
