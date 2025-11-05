@@ -11,7 +11,7 @@ variable "profile" {
   description = "AWS profile name to use for the setup (e.g. ebc-e2e)"
 }
 
-variable "7605-0831-7047" {
+variable "account_id" {
   description = "AWS account id"
 }
 
