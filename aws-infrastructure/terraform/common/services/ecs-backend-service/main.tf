@@ -81,7 +81,7 @@ module "ecs_backend_service" {
   profile = var.profile
   environment = var.environment
   region= var.region
-  7605-0831-7047 = data.terraform_remote_state.globals.outputs.7605-0831-7047
+   account_id = data.terraform_remote_state.globals.outputs.account_id
   common_tags = var.common_tags
   sns_alarm_topic_arn = data.terraform_remote_state.sns.outputs.sns_alarm_cloudwatch_topic_arn
   ecr_repository_url = data.terraform_remote_state.ecr.outputs.ecr_repository_url
