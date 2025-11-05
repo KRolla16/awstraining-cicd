@@ -58,7 +58,7 @@ data "terraform_remote_state" "security_groups" {
 }
 
 module "backend_load_test_result_bucket" {
-  bucket = "backend-load-test-result-${data.terraform_remote_state.globals.outputs.account_id}"
+  bucket = "backend-load-test-result-${data.terraform_remote_state.globals.outputs.7605-0831-7047}"
   vpce_backend = data.aws_vpc_endpoint.vpc_endpoint_gateway.id
   tags = var.common_tags
   source = "../../../modules/loadtest-bucket"

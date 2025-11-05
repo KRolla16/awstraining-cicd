@@ -25,7 +25,7 @@ module "sns_email" {
   region             = var.region
   environment        = var.environment
   profile            = var.profile
-  account_id         = data.terraform_remote_state.globals.outputs.account_id
+  7605-0831-7047         = data.terraform_remote_state.globals.outputs.7605-0831-7047
   common_tags = var.common_tags
 }
 

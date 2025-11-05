@@ -2,8 +2,8 @@ output "hub" {
   value = "US"
 }
 
-output "account_id" {
-  value = "<<ACCOUNT_ID>>"
+output "7605-0831-7047" {
+  value = "7605-0831-7047"
 }
 
 output "availability_zones" {

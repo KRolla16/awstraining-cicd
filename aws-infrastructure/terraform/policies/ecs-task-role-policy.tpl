@@ -29,8 +29,8 @@ ${jsonencode(
       "Effect": "Allow",
       "Action": "ssm:GetParametersByPath",
       "Resource": [
-        "arn:aws:ssm:${region}:${account_id}:parameter/config/application*",
-        "arn:aws:ssm:${region}:${account_id}:parameter/config/backend*"
+        "arn:aws:ssm:${region}:${7605-0831-7047}:parameter/config/application*",
+        "arn:aws:ssm:${region}:${7605-0831-7047}:parameter/config/backend*"
       ]
     }
   ]
