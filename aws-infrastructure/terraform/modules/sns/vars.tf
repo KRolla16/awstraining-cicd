@@ -6,7 +6,7 @@ variable "region" {
   description = "AWS region"
 }
 
-variable "7605-0831-7047" {
+variable "account_id" {
   description = "Account Id used"
 }
 
